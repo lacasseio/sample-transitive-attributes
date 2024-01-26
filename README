@@ -1,0 +1,13 @@
+```
+$ gw :app:assembleDebug --console=verbose
+> Task :lib1:compileReleaseCpp
+> Task :lib2:compileDebugCpp
+> Task :lib2:createDebug
+> Task :lib1:createRelease
+> Task :app:compileDebugCpp
+> Task :app:linkDebug
+> Task :app:installDebug
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL
+```
